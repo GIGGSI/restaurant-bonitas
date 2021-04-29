@@ -1,0 +1,12 @@
+nav {
+  /* height: 55px; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 2rem;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+.active-nav {
+  background: rgb(202, 202, 202);
+}

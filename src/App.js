@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import {
+  Switch,
+  Route,
+} from "react-router-dom";
+import Home from './pages/Home';
+import Navbar from './components/Navbar/Navbar'
+import Dropdown from './components/Dropdown/Dropdown'
+
+
+import ScrollToTheTop from './SrollToTheTop'
+import GLobalStyle from './GlobalStyles';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
+
+
+  return <>
+    <GLobalStyle />
+    <ScrollToTheTop />
+
+    <Navbar toggle={toggle} />
+    <Dropdown isOpen={isOpen} toggle={toggle} />
+    <Switch>
+      <Route exact path="/" component={Home} />
+    </Switch>
+  </>;
 }
 
 export default App;
