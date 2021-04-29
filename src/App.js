@@ -10,6 +10,7 @@ import Dropdown from './components/Dropdown/Dropdown'
 
 import ScrollToTheTop from './SrollToTheTop'
 import GLobalStyle from './GlobalStyles';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -30,6 +31,7 @@ function App() {
     <Switch>
       <Route exact path="/" component={Home} />
     </Switch>
+    <Footer />
   </>;
 }
 
