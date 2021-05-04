@@ -1,77 +1,98 @@
 import food1 from '../images/food1.jpg'
+import soup from '../images/soup.jpg'
+import tarator from '../images/tarator.jpg'
+import salat1 from '../images/gal-1.jpg'
+import salat2 from '../images/salat2.jpg'
+import shnicel from '../images/shnicel.jpg'
+import burger from '../images/burger.jpg'
+import tiramisu from '../images/tiramisu.jpg'
+import sufle from '../images/sufle.jpg'
+
 
 const SpecialMenu = [
     {
         id: 1,
-        title: 'buttermilk pancakes',
-        category: 'breakfast',
-        price: 15.99,
-        img: food1,
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+        title: 'Крем супа от броколи със синьо сирене',
+        category: 'Супи',
+        price: 3.90,
+        img: soup,
+        desc: `
+        Ароматът на топла зеленчуковата крем супа от броколи гали сетивата и възбужда апетита.
+        `,
     },
     {
         id: 2,
-        title: 'diner double',
-        category: 'lunch',
-        price: 13.99,
-        img: food1,
-        desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+        title: 'Таратор',
+        category: 'Супи',
+        price: 2.90,
+        img: tarator,
+        desc: `
+        Таратор в купичка, таратор в чаша, а даже и таратор в бутилка, има ли лято има и таратор!
+        `,
     },
     {
         id: 3,
-        title: 'godzilla milkshake',
-        category: 'shakes',
+        title: 'Салата с бейби спанaк и нар',
+        category: 'Салати',
         price: 6.99,
-        img: food1,
-        desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+        img: salat1,
+        desc: `Една по-разлинча, цветна и вкусна салата!
+
+        `,
     },
     {
         id: 4,
-        title: 'country delight',
-        category: 'breakfast',
+        title: 'Домати, печени чушки, патладжани и сирене',
+        category: 'Салати',
         price: 20.99,
-        img: food1,
-        desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
+        img: salat2,
+        desc: `Лесна, бърза и здравословна салата с патладжан и още куп любими зеленчуци
+        `,
     },
     {
         id: 5,
-        title: 'egg attack',
-        category: 'lunch',
+        title: 'Свински Томахоук с картофи',
+        category: 'Основни',
         price: 22.99,
         img: food1,
-        desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
+        desc: `
+        Приотвен на скара свински томахоук, поднесен с карофи.
+        `,
     },
     {
         id: 6,
-        title: 'oreo dream',
-        category: 'shakes',
+        title: 'Телешки шницел по виенски',
+        category: 'Основни',
         price: 18.99,
-        img: food1,
-        desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+        img: shnicel,
+        desc: `Традиционен телешки шницел по виенски, поднесен с пържени картофи`,
     },
     {
         id: 7,
-        title: 'bacon overflow',
-        category: 'breakfast',
+        title: 'Телешки бургер',
+        category: 'Основни',
         price: 8.99,
-        img: food1,
-        desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+        img: burger,
+        desc: `Класически телешки бургер, с чедър и бекон`,
     },
     {
         id: 8,
-        title: 'american classic',
-        category: 'lunch',
-        price: 12.99,
-        img: food1,
-        desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+        title: 'Тирамису',
+        category: 'Десерти',
+        price: 3.99,
+        img: tiramisu,
+        desc: `
+        Истинско изкушение и истинско прегрешение. Но е пролет и можем да си позволим да се поглезим малко.        `,
     },
     {
         id: 9,
-        title: 'quarantine buddy',
-        category: 'shakes',
-        price: 16.99,
-        img: food1,
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        title: 'Шоколадово суфле',
+        category: 'Десерти',
+        price: 3.99,
+        img: sufle,
+        desc: `
+        Любителите на сладкото ще се влюбят в това наистина вълнуващо сетивата гурме приключение.
+        `,
     },
 ];
 export default SpecialMenu;

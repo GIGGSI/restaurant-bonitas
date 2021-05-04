@@ -12,7 +12,7 @@ const MenuItems = ({ items, allCategories }) => {
     const [categories, setCategories] = useState(allCategories)
 
     const filterItems = (category) => {
-        if (category === 'all') {
+        if (category === 'Всички') {
             setMenuItems(items);
             return;
         }

@@ -18,6 +18,7 @@ background: url(${props => props.img}) no-repeat;
   line-height: 3rem;
   padding:0 1rem;
   color: ${setColor.mainWhite};
+ 
   margin-bottom:2rem;
   ${setFont.slanted}
   -webkit-text-stroke: 1px black;
@@ -32,9 +33,7 @@ background: url(${props => props.img}) no-repeat;
 
 const ImageSection = ({ img, title }) => {
     return <ImageSectionWrapper img={img} >
-
         <h2>
-           
             {title}
         </h2>
     </ImageSectionWrapper>

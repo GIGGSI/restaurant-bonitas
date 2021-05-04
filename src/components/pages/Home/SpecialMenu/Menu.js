@@ -13,7 +13,7 @@ const Menu = ({ items }) => {
         </Image>
         <Details className="details">
           <Center>
-            <h1>{title}</h1>
+            <h3>{title}</h3>
             <p>{desc}</p>
           </Center>
         </Details>
@@ -46,7 +46,7 @@ const Card = styled.div`
 transform: translate(0%, 0%);
   width: 360px;
   height:240px;
-  transition: ${setTransition.main};
+  transition: all 0.3s linear;
   -webkit-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.4); 
 box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.4);
 &:hover{
@@ -81,7 +81,7 @@ position: absolute;
   width: 70%; /*100%*/
   height: 240px;
   border-radius:0.8rem 0 0 0;
-  background: #b9b9b8;
+  background: rgb(202, 202, 202);
   transition: 0.5s;
   transform-origin: left;
   transform: perspective(2000px) rotateY(-90deg);
@@ -96,17 +96,14 @@ const Center = styled.div`
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  h1 {
-    margin: 0;
-  padding: 0;
-  color: #ff3636;
-  line-height: 20px;
-  font-size: 20px;
-  text-transform: uppercase;
+  
+  h3 {
+    color: ${setColor.primaryColor}
+ 
   }
   p{
-    margin: 10px 0;
-  padding: 0;
+    margin: 0.8rem 0;
+     padding: 0;
   color: #262626;
   }
 `

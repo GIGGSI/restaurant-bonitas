@@ -19,11 +19,10 @@ const Categories = ({ categories, filterItems }) => {
 
 const BtnContainer = styled.div`
   
-  border: 1px solid #e4e4e4;
+  border: 1px solid white;
     border-radius: 4px;
     margin: 3rem 1.4rem;
     display: inline-block;
-    color: #333;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 600;
@@ -33,25 +32,31 @@ const BtnContainer = styled.div`
     padding: 12px 40px;
     border: none;
     border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.3);
 
   .filter-btn {
   background: transparent;
   border-color: transparent;
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
-  padding: 0.375rem 0.75rem;
+  padding: 12px 40px;
   color: ${setColor.primaryColor};
   cursor: pointer;
   transition: all 0.3s linear;
   border-radius: 0.25rem;
 
+    
+  
+
   &:hover {
-    background: ${setColor.primaryColor};
-    color: ${setColor.mainWhite};
-    -webkit-box-shadow:1px 1px 1px 1px rgba(1,1,1,0.3);
-    box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.3);
+    /* background: ${setColor.primaryColor};
+    color: ${setColor.mainWhite}; */
+    /* -webkit-box-shadow:1px 1px 1px 1px rgba(1,1,1,0.3);
+    box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.3); */
+    border-bottom:2px solid ${setColor.primaryColor};
+   
   }
   }
 `;

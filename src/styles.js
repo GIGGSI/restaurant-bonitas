@@ -1,5 +1,5 @@
 import { css } from 'styled-components';
-const defaultImg = 'https://images.unsplash.com/photo-1612571507212-4f7367b4cdf6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGNpZ2FyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+const defaultImg = 'https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
 
 export const setColor = {
     primaryColor: "#cd853f;",
@@ -12,10 +12,6 @@ export const setColor = {
 export const setFont = {
     main: "font-family:'Montserrat'",
     slanted: "font-family:'Comfortaa'",
-}
-
-export const setTransition = {
-    main: 'all 0.3s linear;'
 }
 
 

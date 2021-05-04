@@ -13,10 +13,10 @@ const AboutUs = () => {
                     <img src={aboutImg} alt="about us" />
                 </div>
                 <div className="about-info">
-                    <Title title='about us' />
+                    <Title title='Бонитас' />
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-
+                        При нас може да се насладите на приятна обстановка и уют, наподобяващ домашния, защото идеята ни е да предложим на нашите клиенти необходимото внимание и уважение, за да се чувства всеки от тях като наш най-важен гост. За нас на първо място е грижата за клиента. Ето защо менюто е съобразено с най-разнообразни вкусове. Предлагаме богат избор на ястия от европейската и българската кухня. Така ние не предлагаме на гостите си просто храна, а им осигуряваме възможност да се насладят на прекрасния вкус на блюдата, приготвени от майстор-готвачи, съчетано с безупречно обслужване.
+                        Ресторантът е подходящо място за организиране на семейни и фирмени тържества, рождени дни, бизнес срещи и романтични вечери. При нужда от допълнителна информация може да се свържете с нас.
                     </p>
                 </div>
 
@@ -39,9 +39,9 @@ padding-bottom:2rem;
         }
     }
 .about-info {
-    p{
-        letter-spacing:3px;
-    }
+    background: rgb(202, 202, 202,0.2);
+    /* box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.3); */
+
 }
 width:90vw;
 margin:0 auto;
@@ -57,9 +57,9 @@ grid-column-gap:2rem;
     align-self:center;
 }
 .about-info {
-    p{
-        width:80%;
-    }
+    /* p{
+        width:90%;
+    } */
 }
 `}
 `

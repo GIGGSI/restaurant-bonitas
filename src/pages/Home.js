@@ -8,7 +8,7 @@ import Gallery from '../components/pages/Home/Gallery/Gallery'
 import img1 from '../images/slide1.jpg'
 import items from '../data/SpecialMenu'
 
-const allCategories = ['all', ...new Set(items.map((item) => item.category))]
+const allCategories = ['Всички', ...new Set(items.map((item) => item.category))]
 
 
 const Home = () => {
