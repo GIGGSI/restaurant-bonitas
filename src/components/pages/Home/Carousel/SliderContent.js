@@ -14,8 +14,8 @@ const SliderContent = (props) => {
                 className={index === props.activeIndex ?
                     'slides active' : 'inactive'}>
                 <img src={slide.url} alt={slide.title} />
-                <h1>{slide.title} </h1>
-                <p> {slide.description} </p>
+                {/* <h1>{slide.title} </h1> */}
+                {/* <p> {slide.description} </p> */}
             </div>
         })}
     </Section>
@@ -46,7 +46,10 @@ p {
   position: absolute;
   text-align: center;
   z-index: 9;
-  top: 70%;
+  /* color:${setColor.primaryColor}; */
+  box-shadow:rgba(0,0,0,0,3);
+  top: 50%;
+  /* line-height:0.2rem; */
   font-size:2rem;
 }
 

@@ -10,7 +10,6 @@ const Gallery = () => {
 
     return <Section>
         <Title title="Галерия"
-            subtitel="Lorem Ipsum is simply dummy text of the printing and typesetting"
         />
         <GalleryWrapper>
 

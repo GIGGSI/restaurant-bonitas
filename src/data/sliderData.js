@@ -6,7 +6,10 @@ import img4 from '../images/slide4.jpg';
 export const sliderData = [
     {
         title: 'first slide',
-        description: 'This is the First slider of our Carusesl',
+        description: `
+        Едно от най-чудесните неща в живота е, че периодично трябва да прекратяваме дейността, с която сме се захванали, за да посветим своето внимание на храненето.
+
+        `,
         url: img1
     },
     {

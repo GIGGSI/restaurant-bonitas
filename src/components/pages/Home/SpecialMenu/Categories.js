@@ -38,10 +38,10 @@ const BtnContainer = styled.div`
   background: transparent;
   border-color: transparent;
   font-size: 1.4rem;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin: 0 0.5rem;
   letter-spacing: 1px;
-  padding: 12px 40px;
+  padding: 12px 15px;
   color: ${setColor.primaryColor};
   cursor: pointer;
   transition: all 0.3s linear;

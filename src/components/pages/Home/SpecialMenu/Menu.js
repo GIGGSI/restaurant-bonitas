@@ -67,6 +67,7 @@ const Image = styled.div`
 
   img {
     width: 100%;
+    
   transition: 0.5s;
   &:hover {
     opacity: 0.5;

@@ -17,17 +17,18 @@ background: url(${props => props.img}) no-repeat;
   font-weight: bold;
   line-height: 3rem;
   padding:0 1rem;
-  color: ${setColor.mainWhite};
+  color: ${setColor.primaryColor};
+  
  
   margin-bottom:2rem;
-  ${setFont.slanted}
-  -webkit-text-stroke: 1px black;
+  ${setFont.slanted};
+  /* -webkit-text-stroke: 1px black;
    text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,  
       1px -1px 0 #000,
       -1px 1px 0 #000,
-       1px 1px 0 #000;
+       1px 1px 0 #000; */
 }
 `
 

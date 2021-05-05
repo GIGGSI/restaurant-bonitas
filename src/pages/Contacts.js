@@ -12,7 +12,6 @@ const Contacts = () => {
             <TitlePages
                 title="ЗА ВРЪЗКА С НАС"
                 subtitel="+359 879 50 66 88"
-
             />
 
         </SectionPages>
@@ -31,18 +30,7 @@ const Contacts = () => {
                         087 950 6688
                     </p>
                 </div>
-                <div>
-                    <h4>НАШИТЕ ИМЕЙЛИ</h4>
-                    <p>
-                        ул. „Рачо Петков Казанджията“ № 10 , 1756 Бистрица 1000 София.
-                    </p>
-                </div>
-                <div>
-                    <h4>Ще ни откриете на</h4>
-                    <p>
-                        ул. „Рачо Петков Казанджията“ № 10 , 1756 Бистрица 1000 София.
-                    </p>
-                </div>
+                
             </InfoWrapper>
             <GoogleMaps />
 
@@ -52,11 +40,11 @@ const Contacts = () => {
 const Wrapper = styled.div`
 display:grid;
 grid-template-columns:1fr ;
-grid-gap:1rem;
+/* grid-gap:1rem; */
 
 ${media.tablet`
 grid-template-columns:1fr 2fr;
-
+height:35rem;
 `}
 
 `
@@ -65,9 +53,10 @@ text-align:center;
 padding:1rem;   
 align-items:center;
 justify-content:center;
-height:35rem;
+/* height:35rem; */
+
 h4 {
-    padding-top:1rem;
+    padding-top:2rem;
 }
 
 `

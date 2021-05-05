@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { sliderData } from '../../../../data/sliderData'
 import styled from 'styled-components';
+import './slider.css'
 
 
 const Dots = (props) => {
@@ -35,7 +36,7 @@ const AllDots = styled.div`
   height: 1rem;
   width: 1rem;
   margin: 0 3px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 50%;
   display: inline-block;
   }

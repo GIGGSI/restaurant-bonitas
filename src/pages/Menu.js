@@ -4,7 +4,7 @@ import menuPic from '../images/menuPic.jpg'
 import TitlePages from '../components/Globals/TitlePages'
 import Title from '../components/Globals/Title'
 
-import items from '../data/SpecialMenu';
+import items from '../data/FullMenu';
 import Categories from '../components/pages/Home/SpecialMenu/Categories'
 import Menus from '../components/pages/Home/SpecialMenu/Menu'
 import styled from 'styled-components'
@@ -55,9 +55,7 @@ const Menu = () => {
 const Wrapper = styled.div`
 text-align:center;
 margin-top:5rem;
-h3{}
-p {
-}
+
 `
 
 export default Menu

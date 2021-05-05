@@ -47,7 +47,7 @@ h6 {
     font-weight:bold;
 }
 p{
-    line-height:1.5em;
+    /* line-height:1.5em; */
     margin:0 0 0.5rem 0;
 }
 
