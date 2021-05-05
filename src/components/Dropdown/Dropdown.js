@@ -10,7 +10,7 @@ position:fixed;
 z-index:999;
 width:100%;
 height:100%;
-background:#cd853f;
+background: rgb(202, 202, 202,0.9);
 display:grid;
 align-items:center;
 top:0;
@@ -43,7 +43,7 @@ const DropdownWrapper = styled.div`
 const DropdownMenu = styled.div`
 display:grid;
 grid-template-columns:1fr;
-grid-template-rows:repeat(14,40px);
+grid-template-rows:repeat(4,40px);
 text-align:center;
 
 
@@ -55,7 +55,7 @@ text-align:center;
 
 const DropdownLink = styled(Link)`
 display:flex;
-color:${setColor.mainWhite};
+color:${setColor.mainBlack};
 justify-content:center;
 align-items:center;
 font-size:1.5rem;
@@ -64,10 +64,10 @@ text-transform:uppercase;
 list-style:none;
 cursor:pointer;
 transition:0.2s ease-out;
-padding-top:3rem;
+/* padding-top:3rem; */
 
 &:hover {
-    color:${setColor.mainBlack}
+    color:${setColor.primaryColor}
 }
 
 @media screen and (max-width:780px) {

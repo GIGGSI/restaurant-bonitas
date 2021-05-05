@@ -34,7 +34,7 @@ display:none;
 display:block;
 color:white;
 font-size:2.5rem;
-margin-top:1rem;
+/* margin-top:1rem; */
 cursor:pointer;
 position:absolute;
 top:0;
