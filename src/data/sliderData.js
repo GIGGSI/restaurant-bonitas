@@ -1,4 +1,4 @@
-import img1 from '../images/slide1.jpg';
+import img1 from '../images/menuPic.jpg';
 import img2 from '../images/slide2.jpg';
 import img3 from '../images/slide3.jpg';
 import img4 from '../images/slide4.jpg';

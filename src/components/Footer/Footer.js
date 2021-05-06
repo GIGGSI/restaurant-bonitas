@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Section from '../Globals/Section';
 import img1 from '../../images/gal-5.jpg'
-import { media, setBackground } from '../../styles';
+import { media, setBackground, setFont } from '../../styles';
 import { Link } from 'react-router-dom';
 import { setColor } from '../../styles';
 import { AiOutlineClockCircle, AiOutlinePhone } from 'react-icons/ai'
@@ -100,6 +100,7 @@ text-decoration:none;
 const Title = styled.h3`
 font-size:1.7rem;
 color:${setColor.mainWhite};
+${setFont.slanted}
 `
 
 const Paragrapht = styled.p`

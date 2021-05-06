@@ -4,7 +4,11 @@ import TitlePages from '../components/Globals/TitlePages'
 import phone from '../images/phone.jpg'
 import GoogleMaps from '../components/Contacts/Maps/GoogleMaps'
 import styled from 'styled-components'
-import { media } from '../styles'
+import { media, setColor } from '../styles'
+import bonitas from '../images/bonitas.JPG'
+import { HiOutlineLocationMarker } from 'react-icons/hi'
+import { AiOutlinePhone } from 'react-icons/ai'
+
 
 const Contacts = () => {
     return <>
@@ -20,17 +24,19 @@ const Contacts = () => {
                 <div>
                     <h4>Ще ни откриете на</h4>
                     <p>
-                        ул. „Рачо Петков Казанджията“ № 10 , 1756 Бистрица 1000 София.
+                        <span><HiOutlineLocationMarker /> </span>  ул. „Рачо Петков Казанджията“ № 10 , 1756 Бистрица 1000 София.
                     </p>
                 </div>
 
                 <div>
                     <h4>Телефон</h4>
                     <p>
-                        087 950 6688
+                        <span><AiOutlinePhone /> </span>   087 950 6688
                     </p>
                 </div>
-                
+                <div className="about-img">
+                    <img src={bonitas} alt="about us" />
+                </div>
             </InfoWrapper>
             <GoogleMaps />
 
@@ -58,7 +64,29 @@ justify-content:center;
 h4 {
     padding-top:2rem;
 }
+.about-img {
+    padding:1.8rem;
+}
+    .about-img {
+        img {
+            width:100%;
+            display:block;
+            box-shadow: -16px -16px 0px #d0a772;
+            transition: all 0.2s linear;
 
+            &:hover{
+                box-shadow: -16px -16px 0px #d1c4b4;
+                transform:scale(1.03); 
+            }
+        }
+    }
+div {
+  p{
+    &:hover{
+        color:${setColor.primaryColor}
+    }  
+  }  
+}
 `
 
 export default Contacts

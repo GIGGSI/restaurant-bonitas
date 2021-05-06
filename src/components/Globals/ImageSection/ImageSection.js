@@ -17,7 +17,7 @@ background: url(${props => props.img}) no-repeat;
   font-weight: bold;
   line-height: 3rem;
   padding:0 1rem;
-  color: ${setColor.primaryColor};
+  color: ${setColor.mainWhite};
   
  
   margin-bottom:2rem;

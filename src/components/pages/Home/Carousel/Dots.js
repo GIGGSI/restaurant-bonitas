@@ -10,10 +10,10 @@ const Dots = (props) => {
     return (
         <AllDots >
             {data.map((slide, index) => {
-                return <span
+                return <span 
                     key={index}
                     className={`${props.activeIndex === index ?
-                        'dot active-dot' : 'dot'}`}
+                        'dot active-dot span__dots' : 'dot span__dots'}`}
                     onClick={(event) => props.onClick((event.target.value = index))}
                 >
 
@@ -31,15 +31,7 @@ const AllDots = styled.div`
   top: 90%;
   justify-content: center;
   z-index: 200;
-  span{
-    cursor: pointer;
-  height: 1rem;
-  width: 1rem;
-  margin: 0 3px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 50%;
-  display: inline-block;
-  }
+
 `
 
 export default Dots

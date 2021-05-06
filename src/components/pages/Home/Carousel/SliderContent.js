@@ -46,7 +46,6 @@ p {
   position: absolute;
   text-align: center;
   z-index: 9;
-  /* color:${setColor.primaryColor}; */
   box-shadow:rgba(0,0,0,0,3);
   top: 50%;
   /* line-height:0.2rem; */

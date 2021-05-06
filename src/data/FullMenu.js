@@ -26,12 +26,29 @@ import durpano from '../images/fullMenu/Durpano.jpg'
 import tortila from '../images/fullMenu/tortila.jpg'
 import burger from '../images/burger.jpg'
 
+import boloneze from '../images/fullMenu/boloneze.jpg'
+import salmon from '../images/fullMenu/salmon.jpg'
+import carbonara from '../images/fullMenu/carbonara.jpg'
+import rissoto1 from '../images/fullMenu/rissoto1.jpg'
+import chicken from '../images/fullMenu/chicken.jpg'
+import beef from '../images/fullMenu/beef.jpg'
 
+import djolan from '../images/fullMenu/djolan.jpg'
+import turkey from '../images/fullMenu/turkey.jpg'
+import beefRibs from '../images/fullMenu/beefRibs.jpg'
+import beefBon from '../images/fullMenu/beefBon.jpg'
 import shnicel from '../images/shnicel.jpg'
+import salmonWithSoanich from '../images/fullMenu/salmonWithSpanich.jpg'
+import chickenFillet from '../images/fullMenu/chickenFillet.jpg'
+import beefMeatbolls from '../images/fullMenu/beefMeatbolls.jpg'
+import pork from '../images/fullMenu/pork.jpg'
+import ribay from '../images/fullMenu/ribay.jpg'
+import seaBass from '../images/fullMenu/seaBass.jpg'
 
 import tiramisu from '../images/tiramisu.jpg'
 import sufle from '../images/sufle.jpg'
-
+import cheesseCake from '../images/fullMenu/cheeseeCake.jpg'
+import maskarpone from '../images/fullMenu/maskarpone.jpg'
 
 const FullMenu = [
 
@@ -268,81 +285,217 @@ const FullMenu = [
       Мексиканска тортила с телешко месо и млечен сос.
         `
     },
-    // {
-    //     id: 5,
-    //     title: 'Свински Томахоук с картофи',
-    //     category: 'Основни',
-    //     price: 22.99,
-    //     img: food1,
-    //     desc: `
-    //     Приотвен на скара свински томахоук, поднесен с карофи.
-    //     `,
-    // },
-    // {
-    //     id: 6,
-    //     title: 'Телешки шницел по виенски',
-    //     category: 'Основни',
-    //     price: 18.99,
-    //     img: shnicel,
-    //     desc: `Традиционен телешки шницел по виенски, поднесен с пържени картофи`,
-    // },
-    // {
-    //     id: 7,
-    //     title: 'Телешки бургер',
-    //     category: 'Основни',
-    //     price: 8.99,
-    //     img: burger,
-    //     desc: `Класически телешки бургер, с чедър и бекон`,
-    // },
-    // {
-    //     id: 8,
-    //     title: 'Тирамису',
-    //     category: 'Десерти',
-    //     price: 3.99,
-    //     img: tiramisu,
-    //     desc: `
-    //     Истинско изкушение и истинско прегрешение. Но е пролет и можем да си позволим да се поглезим малко.        `,
-    // },
-    // {
-    //     id: 9,
-    //     title: 'Шоколадово суфле',
-    //     category: 'Десерти',
-    //     price: 3.99,
-    //     img: sufle,
-    //     desc: `
-    //     Любителите на сладкото ще се влюбят в това наистина вълнуващо сетивата гурме приключение.
-    //     `,
-    // },
+    {
+        id: 25,
+        title: 'Талиателе Болонезе',
+        category: 'Паста и Ризото',
+        price: 9.99,
+        img: boloneze,
+        desc: `
+      Класически талиателе със сос Болонезе.
+        `
+    },
+    {
+        id: 26,
+        title: 'Талиателе със сьомга, броколи и сметана ',
+        category: 'Паста и Ризото',
+        price: 14.90,
+        img: salmon,
+        desc: `
+        Сочните парченца пушена сьомга, ореховите броколи и нежните макарони се сгъват през сметанов сос.        `
+    },
+    {
+        id: 27,
+        title: 'Талиателе Карбонара',
+        category: 'Паста и Ризото',
+        price: 10.90,
+        img: carbonara,
+        desc: `
+        Богат, кремообразен, снизходителен. Пастата карбонара е най-добрата комфортна храна.     `
+    },
+    {
+        id: 28,
+        title: 'Ризото със зеленчуци, маскарпоне и пармезан',
+        category: 'Паста и Ризото',
+        price: 10.90,
+        img: rissoto1,
+        desc: `
+        Ризото със зеленчуци, маскарпоне и пармезан     `
+    },
+    {
+        id: 29,
+        title: 'Ризото с пиле, маскарпоне и пармезан',
+        category: 'Паста и Ризото',
+        price: 11.90,
+        img: chicken,
+        desc:
+            `
+        Наистина кремообразно, богато и вкусно ризото от пиле и гъби.
+    `
+    },
+    {
+        id: 30,
+        title: 'Ризото с телешко бонфиле',
+        category: 'Паста и Ризото',
+        price: 16.90,
+        img: beef,
+        desc:
+            `
+        Това богато телешко ризото, подправено с мащерка, гъби и аспержи, е идеалното основно за следващата ви вечеря.
+    `
+    },
+    {
+        id: 31,
+        title: 'Бавно приготвен джолан',
+        category: 'Основни',
+        price: 18.90,
+        img: djolan,
+        desc:
+            `
+       Бавно приготвен джолан с мачкан картоф и билково масло.
+    `
+    },
+    {
+        id: 32,
+        title: 'Пуешки стек',
+        category: 'Основни',
+        price: 18.90,
+        img: turkey,
+        desc:
+            `
+            Запържена пуешка гърда със сладко картофено пюре и празничен сос
+    `
+    },
+    {
+        id: 33,
+        title: 'Глазирани телешки ребра',
+        category: 'Основни',
+        price: 18.90,
+        img: beefRibs,
+        desc:
+            `Глазирани телешки ребра с пържени картофи `
+    },
+    {
+        id: 34,
+        title: 'Телешки шницел по виенски',
+        category: 'Основни',
+        price: 18.99,
+        img: shnicel,
+        desc: `Традиционен телешки шницел по виенски, поднесен с пържени картофи`,
+    },
+    {
+        id: 35,
+        title: 'Телешкo бон филе',
+        category: 'Основни',
+        price: 18.99,
+        img: beefBon,
+        desc: `Телешко бон филе с пепър сос и пюре от грах`,
+    },
+    {
+        id: 36,
+        title: 'Филе от сьомга',
+        category: 'Основни',
+        price: 18.99,
+        img: salmonWithSoanich,
+        desc: `Филе от сьомга с хрупкава коричка и спанак соте, киноа и пармезан`,
+    },
+    {
+        id: 37,
+        title: 'Мариновано пилешко филе',
+        category: 'Основни',
+        price: 18.99,
+        img: chickenFillet,
+        desc: `Мариновано пилешко филе с гъбен сос и мачкан картоф.`,
+    },
+    {
+        id: 38,
+        title: 'Кюфтета от телешко месо',
+        category: 'Основни',
+        price: 18.99,
+        img: beefMeatbolls,
+        desc: `Кюфтета от телешко месо с пържени картофи и BBQ сос.`,
+    },
+    {
+        id: 39,
+        title: 'Свински Томахоук с картофи',
+        category: 'Основни',
+        price: 22.99,
+        img: food1,
+        desc: `
+        Приотвен на скара свински томахоук, поднесен с карофи.
+        `,
+    },
+    {
+        id: 40,
+        title: 'Свинскa Вратна пържола',
+        category: 'Основни',
+        price: 22.99,
+        img: pork,
+        desc: `
+     Свинска вратна пържола с пепър сос и пюре от грах.
+        `,
+    },
+    {
+        id: 41,
+        title: 'Рибай стек',
+        category: 'Основни',
+        price: 22.99,
+        img: ribay,
+        desc: `
+     Невроятен Рибай стек, сочен, перфектно приготвен.
+        `,
+    },
+    {
+        id: 42,
+        title: 'Филе от лаврак',
+        category: 'Основни',
+        price: 12.99,
+        img: seaBass,
+        desc: `
+    Филе от лаврак със спанак соте, киноа и пармезан.
+        `,
+    },
 
-    // {
-    //     id: 11,
-    //     title: 'Шоколадово суфле',
-    //     category: 'Предястия',
-    //     price: 3.99,
-    //     img: sufle,
-    //     desc: `
-    //     Любителите на сладкото ще се влюбят в това наистина вълнуващо сетивата гурме приключение.
-    //     `,
-    // },
-    // {
-    //     id: 12,
-    //     title: 'Шоколадово суфле',
-    //     category: 'Паста и Ризото',
-    //     price: 3.99,
-    //     img: sufle,
-    //     desc: `
-    //     Любителите на сладкото ще се влюбят в това наистина вълнуващо сетивата гурме приключение.
-    //     `,
-    // },
-    // {
-    //     id: 12,
-    //     title: 'Шоколадово суфле',
-    //     category: 'Пици и Бургери',
-    //     price: 3.99,
-    //     img: sufle,
-    //     desc: `
-    //     Любителите на сладкото ще се влюбят в това наистина вълнуващо сетивата гурме приключение.
-    //     `,
-    // },
+    {
+        id: 43,
+        title: 'Тирамису',
+        category: 'Десерти',
+        price: 3.99,
+        img: tiramisu,
+        desc: `
+        Истинско изкушение и истинско прегрешение. Но е пролет и можем да си позволим да се поглезим малко.        `,
+    },
+    {
+        id: 44,
+        title: 'Шоколадово суфле',
+        category: 'Десерти',
+        price: 3.99,
+        img: sufle,
+        desc: `
+        Любителите на сладкото ще се влюбят в това наистина вълнуващо сетивата гурме приключение.
+        `,
+    },
+    {
+        id: 45,
+        title: 'Сладоледен чийзкейк',
+        category: 'Десерти',
+        price: 3.99,
+        img: cheesseCake,
+        desc: `
+        Любителите на сладкото ще се влюбят в това наистина вълнуващо сетивата гурме приключение.
+        `,
+    },
+    {
+        id: 46,
+        title: 'Крем маскарпоне',
+        category: 'Десерти',
+        price: 3.99,
+        img: maskarpone,
+        desc: `
+       Крем маскарпоне с горски плодове.
+        `,
+    },
+
+
 ];
 export default FullMenu;

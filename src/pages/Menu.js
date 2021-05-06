@@ -31,7 +31,7 @@ const Menu = () => {
     return <>
         <SectionPages img={menuPic}>
             <TitlePages
-                title="КУЛИНАРНИЯ ИЗКУШЕНИЯ"
+                title="КУЛИНАРНИ ИЗКУШЕНИЯ"
                 subtitel="свежи продукти, вкусни ястия "
             />
         </SectionPages>

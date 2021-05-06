@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { media, setColor, setTransition } from '../../../../styles';
 
 const Menu = ({ items }) => {
-  console.log(items)
   return <SectionCenter>
     {items.map((menuItem) => {
       const { id, title, img, desc, price } = menuItem;

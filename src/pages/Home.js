@@ -5,7 +5,7 @@ import ImageSection from '../components/Globals/ImageSection/ImageSection';
 import MenuItems from '../components/pages/Home/SpecialMenu/MenuItems'
 import Gallery from '../components/pages/Home/Gallery/Gallery'
 
-import img1 from '../images/slide1.jpg'
+import img1 from '../images/slide3.jpg'
 import items from '../data/SpecialMenu'
 
 const allCategories = ['Всички', ...new Set(items.map((item) => item.category))]
