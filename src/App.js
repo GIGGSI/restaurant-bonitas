@@ -28,7 +28,6 @@ function App() {
   return <>
     <GLobalStyle />
     <ScrollToTheTop />
-
     <Navbar toggle={toggle} />
     <Dropdown isOpen={isOpen} toggle={toggle} />
     <Switch>

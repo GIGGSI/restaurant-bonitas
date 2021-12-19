@@ -10,9 +10,7 @@ const AboutUs = () => {
             <TitlePages
                 title="ИСТОРИЯТА НИ"
             // subtitel="+359 879 50 66 88"
-
             />
-
         </SectionPages>
         <AboutUsSection />
     </>

@@ -16,7 +16,6 @@ const Dots = (props) => {
                         'dot active-dot span__dots' : 'dot span__dots'}`}
                     onClick={(event) => props.onClick((event.target.value = index))}
                 >
-
                 </span>
             })}
 

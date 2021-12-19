@@ -39,7 +39,6 @@ const Contacts = () => {
                 </div>
             </InfoWrapper>
             <GoogleMaps />
-
         </Wrapper>
     </>
 }

@@ -10,7 +10,6 @@ import items from '../data/SpecialMenu'
 
 const allCategories = ['Всички', ...new Set(items.map((item) => item.category))]
 
-
 const Home = () => {
     return <>
         <Slider />
